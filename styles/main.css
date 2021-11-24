@@ -17,9 +17,7 @@ html, body { margin: 0; padding: 0; width: 100%; min-height: 100%;}
 
 .lang {
     display: flex;
-    justify-content: center;
-    
-
+    justify-content: center;  
 }
 
 .body {
@@ -71,7 +69,6 @@ html, body { margin: 0; padding: 0; width: 100%; min-height: 100%;}
     grid-row: 3;
 }
 
-
 .footer_nav {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +88,6 @@ html, body { margin: 0; padding: 0; width: 100%; min-height: 100%;}
     grid-column-start: 3;
   }
 
-  .
+  
 
 }
