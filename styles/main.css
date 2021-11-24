@@ -119,4 +119,21 @@ article p {
       display: flex;
   }
 
+
+  .section__article{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .section_article2_picture{
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+
+  .picture {
+    margin-left: auto;
+    width: 50%;
+  }
 }
