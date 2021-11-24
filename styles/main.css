@@ -98,7 +98,8 @@ article p {
 }
 
 .mentions {
-    text-align: center;   
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 
