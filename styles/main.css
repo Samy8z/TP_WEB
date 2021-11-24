@@ -27,6 +27,25 @@ html, body { margin: 0; padding: 0; width: 100%; min-height: 100%;}
     width: 100%;
 }
 
+article h1 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+article p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
 .picture {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
