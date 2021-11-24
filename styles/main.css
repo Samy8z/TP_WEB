@@ -105,9 +105,18 @@ article p {
 @media screen and (min-width: 900px) {
 
   .header{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     background-color: aquamarine;
-    grid-column-start: 3;
-  } 
+    justify-content: start;
+  }
+
+  .link {
+      margin-left: 10px;
+  }
+
+  nav {
+      display: flex;
+  }
 
 }
