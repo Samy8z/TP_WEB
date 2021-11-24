@@ -55,7 +55,9 @@ article p {
 }
 
 .article2_div {
-    float: right;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 5px;
 }
 
 .footer {
