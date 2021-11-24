@@ -54,8 +54,12 @@ article p {
     flex-wrap: wrap;
 }
 
+.article2_div {
+    float: right;
+}
+
 .footer {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .footer_nav {
