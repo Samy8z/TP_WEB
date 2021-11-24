@@ -19,6 +19,9 @@ html, body { margin: 0; padding: 0; width: 100%; min-height: 100%;}
     margin-top: 10px;
 }
 
+.link {
+    margin-left: -12px;
+}
 
 .main_img {
     display: block;
@@ -47,11 +50,28 @@ article p {
 }
 
 .picture {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.picture_img {
+    height: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.Colonne_Image {
+    height: auto;
+    width: 50%;
+    margin-left: 5px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picture_img2 {
+    width: 100%;
+    height: auto;
 }
 
 .article2_div {
